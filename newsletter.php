@@ -381,6 +381,6 @@ load_template("head");
 }
 else{
 
-  header('location:/admin_panel/login.php');
+  header('location:/login.php');
 }
 ?>

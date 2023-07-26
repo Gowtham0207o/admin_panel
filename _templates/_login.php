@@ -9,7 +9,7 @@ $check=true;
 if ($check){
     try{
       $result = user::login($emailId,$password);
-      header('location:/admin_panel');
+      header('location:/index.php');
       session::set('is_loggedin',true);
 
 

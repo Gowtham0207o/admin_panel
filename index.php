@@ -16,12 +16,12 @@ if(!$result){
     <title>Document</title>
 </head>
 <body><?
-  header('location:/admin_panel/contact.php');
+  header('location:/contact.php');
   ?>
 </body>
 </html>
 <?
 }else{
-    header('location:/admin_panel/login.php');
+    header('location:/login.php');
 }
 ?>

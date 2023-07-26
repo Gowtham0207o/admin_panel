@@ -28,6 +28,11 @@
                     newsletter
                 </a>
             </li>
+            <li class="nav-item">
+                <a href="newsletter.php" class="btn btn-primary">
+                    logout
+                </a>
+            </li>
           
         </ul>
         </div>

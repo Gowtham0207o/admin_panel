@@ -25,7 +25,7 @@ To provide intellectually stimulating environment, conducive for research.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <a href="/admin_panel/results" type="button" class="btn btn-primary">navigate</a>
+        <a href="/results" type="button" class="btn btn-primary">navigate</a>
       </div>
     </div>
   </div>
@@ -37,7 +37,7 @@ To provide intellectually stimulating environment, conducive for research.</p>
 
 <?php
 if(isset($_POST['submit'])){
- header('location:/admin_panel/test_user.php');
+ header('location:/test_user.php');
 }
 ?>
 
