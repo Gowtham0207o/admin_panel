@@ -34,4 +34,5 @@
 <script src="/admin_panel/js/<?=basename($_SERVER['PHP_SELF'], ".php")?>.js"></script>
 <?}?>
 <link href="/admin_panel/css/custom.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
 </head>

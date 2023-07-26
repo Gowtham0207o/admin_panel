@@ -83,6 +83,9 @@ load_template("head");
          
                 </tbody>
             </table>
+			
+			<button click='downloadTableAsExcel()' id="tabledownloadbtn" class="btn btn-primary">Download Excel</button>
+			
 			<div class="clearfix">
                 <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
                 <ul class="pagination">
